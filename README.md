@@ -15,4 +15,4 @@ _PeerLibrary development is [done in another repository](https://github.com/peer
 
 _TODO: How people help and join the outreach?_
 
-_TODO: Link to the mailing list, information about regular meeting._
+_TODO: Add information about the regular meeting._
