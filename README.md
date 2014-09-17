@@ -6,7 +6,7 @@ This repository is used to help with PeerLibrary outreach, promotion, teaching, 
 * [Outreach wiki](https://github.com/peerlibrary/outreach/wiki)
 * [Outreach tickets](https://github.com/peerlibrary/outreach/issues)
 
-_If you are interested in PeerLibrary development, [visit this repository](https://github.com/peerlibrary/peerlibrary)._
+_PeerLibrary development itself is [done in another repository](https://github.com/peerlibrary/peerlibrary)._
 
 _TODO: How people help and join the outreach?_
 
