@@ -13,6 +13,12 @@ This repository is used to help with PeerLibrary outreach, promotion, teaching, 
 
 _PeerLibrary development is [done in another repository](https://github.com/peerlibrary/peerlibrary)._
 
-_TODO: How people help and join the outreach?_
+Weekly meeting
+--------------
 
-_TODO: Add information about the regular meeting._
+Regular general weekly meeting is every Monday 8 PM PST. Meeting is open to really
+everyone. Remote participation is possible: join us on our IRC channel at that time
+for more information. We are also using our IRC channel for a backchannel to the
+meeting. Notes are taken and sent to the mailing lists.
+
+_TODO: How people help and join the outreach?_
