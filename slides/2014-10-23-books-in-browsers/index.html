@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="../lib/reveal.js/css/reveal.min.css">
+        <link rel="stylesheet" href="../lib/reveal.js/css/theme/serif.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="../lib/reveal.js/lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+                <section>
+                    <h1>Making a library a digital one</h1>
+                    <h3>Mitar Milutinovic</h3>
+                    <p>
+                        <small><a href="http://twitter.com/mitar_m">@mitar_m</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="http://mitar.tnode.com">http://mitar.tnode.com</a></small>
+                    </p>
+                </section>
+
+                <section>
+                    <p>PhD student at UC Berkeley</p>
+                    <p>Working on a project called PeerLibrary</p>
+                </section>
+
+                <section>
+                    <p>PeerLibrary is an online platform and community to facilitate 
+                    the global conversation on academic literature</p>
+                </section>
+
+                <section>
+                    <section>
+                        <img src="search.png">
+                    </section>
+
+                    <section>
+                        <img src="results.png">
+                    </section>
+
+                    <section>
+                        <img src="annotations.png">
+                    </section>
+                </section>
+
+                <section>
+                    <p>Available at https://peerlibrary.org</p>
+                </section>
+
+                <section>
+                    <p>Interested in how to build user interfaces for collaboration</p>
+                </section>
+
+                <section>
+                    <p>But main issues are elsewhere</p>
+                </section>
+
+                <section>
+                    <p>Metadata – what is there?</p>
+                    <p class="fragment">Content - where is what?</p>
+                    <p class="fragment">How to do it legally?</p>
+                </section>
+
+                <section>
+                    <p>Gross generalizations:<ul>
+                        <li>Digitalization and archiving of books and other publications</li>
+                        <li>Publishers moved to sell online</li>
+                        <li>Readers and content creators embraced the web and bypassed publishers</li>
+                    </ul></p>
+                </section>
+
+                <section>
+                    <p>It is different from the web</p>
+                    <!-- You can access content directly, you can crawl to learn what it is, and
+                    both of that is mostly legal -->
+                </section>
+
+                <section>
+                    <p>Lack of diversity</p>
+                </section>
+
+                <section>
+                    <p>Public libraries</p>
+                    <p>Reading clubs</p>
+                    <p>Lending among friends</p>
+                    <p>Leaving a book on a bench in the park</p>
+                </section>
+
+                <section>
+                    <p>Public libraries are more than just archives, they are also a public space</p>
+                </section>
+
+                <section>
+                    <p>Public space with various interpersonal interactions</p>
+                </section>
+
+                <section>
+                    <p>Have they been mapped to virtual space, virtual libraries?</p>
+                </section>
+
+                <section>
+                    <section>
+                        <img src="berkeley-search.png">
+                    </section>
+
+                    <section>
+                        <img src="berkeley-results.png">
+                    </section>
+
+                    <section>
+                        <img src="berkeley-publication.png">
+                    </section>
+                </section>
+
+                <section>
+                    <p>On the other hand, there are many thriving online communities</p>
+                    <p class="fragment">(We all know them)
+                    </p>
+                </section>
+
+                <section>
+                    <p>One click ways to read, write, share, like, poke</p>
+                </section>
+
+                <section>
+                    <p>This lack of diversity is bad</p>
+                </section>
+
+                <section>
+                    <p>It was never about a book, but how the book was used, what were social
+                    interactions around the book</p>
+                </section>
+
+                <section>
+                    <p>In schools, in libraries, among friends, in a bar</p>
+                </section>
+
+                <section>
+                    <p>
+                        How many social interactions you see around digital books?
+                    </p>
+                </section>
+
+                <section>
+                    <img src="paywall.png">
+                </section>
+
+                <section>
+                    <p>Getting just a short snippet to decide if this is what you are interested in?</p>
+                </section>
+
+                <section>
+                    <p>Is this really the best we can do?</p>
+                </section>
+
+                <section>
+                    <p>How can we innovate and try new things, new models?</p>
+                </section>
+
+                <section>
+                    <p>It is not publishers job to facilitate all those interactions</p>
+                </section>
+
+                <section>
+                    <p>People do it by themselves, things you cannot even imagine</p>
+                </section>
+
+                <section>
+                    <p>And that's what is missing – how can people innovate on ways we interact
+                    with publications now found online?</p>
+                </section>
+
+                <section>
+                    <p>How can they find them, how can they like them, how can they poke them?</p>
+                </section>
+
+                <section>
+                    <p>APIs.</p>
+                </section>
+
+                <section>
+                    <section>
+                        <p>For a developer: <br/> I register an app, I start using an API, I built something</p>
+                    </section>
+
+                    <section>
+                        <p>Instead of taking few month to negotiate terms and a contract to use
+                        your content</p>
+                    </section>
+
+                    <section>
+                        <p>When you do not even yet have a company to do that</p>
+                    </section>
+                </section>
+
+                <section>
+                    <p>How can we try new things to see if they work or not?</p>
+                </section>
+
+                <section>
+                    <p>Publisher as a platform</p>
+                    <p class="fragment">To build upon</p>
+                </section>
+
+                <section>
+                    <p>APIs to access the content</p>
+                    <p class="fragment">For free</p>
+                    <p class="fragment">For developers</p>
+                    <p class="fragment">(But under conditions)</p>
+                </section>
+
+                <section>
+                    <span>So that others can start building search services,</span>
+                    <span class="fragment">recommendation services,</span>
+                    <span class="fragment">discussion platforms,</span> 
+                    <span class="fragment">digital classrooms,</span>
+                    <span class="fragment">mobile apps,</span>
+                    <span class="fragment">digital readers,</span>
+                    <span class="fragment">cross-linking and cross-referencing tools</span>
+                </section>
+
+                <section>
+                    <p>And market apps</p>
+                </section>
+
+                <section>
+                    <p>Do we really want that Amazon is the only market for books?</p>
+                </section>
+
+                <section>
+                    <p>It is not about a book, but social interactions around the book</p>
+                </section>
+
+                <section>
+                    <p>Thank you</p>
+                    <p><a href="http://twitter.com/mitar_m">@mitar_m</a></p>
+                    <p><a href="http://mitar.tnode.com">http://mitar.tnode.com</a></p>
+                </section>
+            </div>
+
+        </div>
+
+        <script src="../lib/jquery/jquery-1.11.1.js"></script>
+        <script src="../lib/balance-text/jquery.balancetext.js"></script>
+        <script src="../lib/reveal.js/lib/js/head.min.js"></script>
+        <script src="../lib/reveal.js/js/reveal.min.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: '../lib/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: '../lib/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '../lib/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '../lib/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: '../lib/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: '../lib/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+            // Make all paragraphs and headers balanced
+            Reveal.addEventListener( 'ready', function( event ) {
+                $('p, h1, h2, h3, h4, h5, h6, .balance-text').balanceText();
+            } );
+
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+                $('p, h1, h2, h3, h4, h5, h6, .balance-text').balanceText();
+            } );
+
+        </script>
+
+    </body>
+</html>
