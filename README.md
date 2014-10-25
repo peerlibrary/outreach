@@ -14,6 +14,10 @@ This repository is used to help with PeerLibrary outreach, promotion, teaching, 
 
 _PeerLibrary development is [done in another repository](https://github.com/peerlibrary/peerlibrary)._
 
+* [This week's outreach tickets](https://github.com/peerlibrary/outreach/milestones/This%20week)
+* [Next week's outreach tickets](https://github.com/peerlibrary/outreach/milestones/Next%20week)
+* [Next month's outreach tickets](https://github.com/peerlibrary/outreach/milestones/Next%20month)
+
 Weekly meeting
 --------------
 
