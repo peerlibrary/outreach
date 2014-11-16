@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="../lib/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="../lib/reveal.js/css/theme/serif.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="../lib/reveal.js/lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+                <section>
+                    <img src="planet.png">
+                </section>
+
+                <section>
+                    <h2>Aggregator of open access/science blogs</h2>
+                    <ul>
+                        <li><a href="http://ubuntusense.com/2014/09/30/thoughts-on-having-a-meta-open-science-community/">http://ubuntusense.com/2014/09/30/thoughts-on-having-a-meta-open-science-community/</a></li>
+                        <li><a href="https://pad.riseup.net/p/ok-meta-community">https://pad.riseup.net/p/ok-meta-community</a></li>
+                        <li><a href="https://lists.okfn.org/pipermail/open-science/2014-November/003624.html">https://lists.okfn.org/pipermail/open-science/2014-November/003624.html</a></li>
+                        <li><a href="http://discuss.okfn.org/t/planet-open-science/94">http://discuss.okfn.org/t/planet-open-science/94</a></li>
+                        <li><a href="http://discuss.okfn.org/category/working-groups/open-science">http://discuss.okfn.org/category/working-groups/open-science</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img src="calagator.png">
+                </section>
+
+                <section>
+                    <h2>Aggregator of open access/science events/conferences</h2>
+                    <ul>
+                        <li><a href="http://calagator.org/">http://calagator.org/</a></li>
+                        <li><a href="https://github.com/calagator/calagator">https://github.com/calagator/calagator</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img src="census.png">
+                </section>
+                
+                <section>
+                    <ul>
+                        <li>Do government agencies use impact factor to determine funding</li>
+                        <li>Do they provide funding for open access publishing</li>
+                        <li>Do they promote DOIs, ORKIDs</li>
+                        <li>Do they require depositing data & code together with publications</li>
+                        <li>Is there an open access policy in place for public funded research</li>
+                        <li>Is there an open access agenda</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Global open access index</h2>
+                    <ul>
+                        <li><a href="http://global.census.okfn.org/">http://global.census.okfn.org/</a></li>
+                        <li><a href="http://www.sherpa.ac.uk/juliet/">http://www.sherpa.ac.uk/juliet/</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <p><a href="https://twitter.com/mitar_m">@mitar_m</a><p>
+                    <p><a href="http://mitar.tnode.com">http://mitar.tnode.com</a><p>
+                </section>
+            </div>
+
+        </div>
+
+        <script src="../lib/jquery/jquery-1.11.1.js"></script>
+        <script src="../lib/balance-text/jquery.balancetext.js"></script>
+        <script src="../lib/reveal.js/lib/js/head.min.js"></script>
+        <script src="../lib/reveal.js/js/reveal.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: '../lib/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: '../lib/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '../lib/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: '../lib/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: '../lib/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: '../lib/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+            // Make all paragraphs and headers balanced
+            Reveal.addEventListener( 'ready', function( event ) {
+                $('p, h1, h2, h3, h4, h5, h6, .balance-text').balanceText();
+            } );
+
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+                $('p, h1, h2, h3, h4, h5, h6, .balance-text').balanceText();
+            } );
+
+        </script>
+
+    </body>
+</html>
