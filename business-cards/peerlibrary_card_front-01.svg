@@ -278,7 +278,7 @@
 	<rect x="5.669" y="5.672" display="none" fill="#8DC63F" width="226.772" height="144.567"/>
 	<rect x="14.173" y="14.175" display="none" fill="#009444" width="209.764" height="127.559"/>
 	<rect x="70.053" y="78.642" fill="none" width="111.113" height="50.333"/>
-	<text transform="matrix(0.9948 0 0 1 70.0532 90.6094)"><tspan x="0" y="0" font-family="'FiraSans-BookItalic'" font-size="16">Mitar </tspan><tspan x="0" y="15" font-family="'FiraSans-BookItalic'" font-size="16">Milutinovic</tspan><tspan x="0" y="29" font-family="'FiraSans-ThinItalic'" font-size="7">mitar@peerlibrary.org</tspan><tspan x="0" y="38" font-family="'FiraSans-ThinItalic'" font-size="7">peerlibrary.org</tspan></text>
+	<text transform="matrix(0.9948 0 0 1 70.0532 90.6094)"><tspan x="0" y="0" font-family="'FiraSans-BookItalic'" font-size="16">FIRSTNAME </tspan><tspan x="0" y="15" font-family="'FiraSans-BookItalic'" font-size="16">LASTNAME</tspan><tspan x="0" y="29" font-family="'FiraSans-ThinItalic'" font-size="7">EMAIL@peerlibrary.org</tspan><tspan x="0" y="38" font-family="'FiraSans-ThinItalic'" font-size="7">peerlibrary.org</tspan></text>
 	<rect x="23.148" y="79.688" fill="#FFFFFF" width="14.25" height="18.5"/>
 	<g>
 		<g>
