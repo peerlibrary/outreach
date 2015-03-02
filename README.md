@@ -9,7 +9,7 @@ This repository is used to help with PeerLibrary outreach, promotion, teaching, 
 * [Outreach wiki](https://github.com/peerlibrary/outreach/wiki)
 * [Outreach tickets](https://github.com/peerlibrary/outreach/issues)
 * [Outreach mailing list](http://lists.peerlibrary.org/lists/info/outreach)
-* IRC at #peerlibrary @ [Freenode](http://freenode.net/)
+* IRC at [#peerlibrary](https://webchat.freenode.net/?channels=peerlibrary) @ [Freenode](http://freenode.net/)
 * Email hello @ peerlibrary.org
 
 _PeerLibrary development is [done in another repository](https://github.com/peerlibrary/peerlibrary)._
